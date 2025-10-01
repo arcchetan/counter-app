@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- External CSS file for styling -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Icon library for button icons -->
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <title>Counter App</title>
+</head>
+<body>
+    <main class="container" aria-label="Counter application">
+        <!-- Gradient Background -->
+        <div class="bg-gradient"></div>
+        <section class="counter">
+            <h1>Counter App</h1>
+            <!-- Display area for the counter value -->
+            <div class="count-display" id="countDisplay" aria-live="polite" aria-atomic="true" aria-relevant="additions removals">0</div>
+            <div class="buttons">
+                <button id="btnAdd" type="button" aria-label="Add one to the count">Add<i class='bx  bx-plus'></i></button>
+                <button id="btnReset" type="button" aria-label="Reset the count to zero">Reset<i class='bx  bx-home'></i></button>
+                <button id="btnSubtract" type="button" aria-label="Subtract one from the count">Subtract<i class='bx  bx-minus'></i></button>
+            </div>
+        </section>
+    </main>
+    
+    <!-- JavaScript file with counter functionality -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
